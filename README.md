@@ -1,7 +1,7 @@
 # MetabolicDifferentiation
 Matlab 2017b supplemental files
 
-<b>PhaseBright.mat</b>
+<b>PhaseBright.m</b>
 
 Main file for phase bright quantification of mature spores. The script takes an image file name as input (baseFileName) and returns results as an array composed of number of cells that completed sporulation, number of cells that are engulfing, total cells sporulating, as well as corresponding percentages. Figures displaying each thresholding step are intended for use in quality control.
 
@@ -11,7 +11,7 @@ Main file for phase bright quantification of mature spores. The script takes an 
 A classification model built in Matlab 2017b using a training set of engulfing spores. This model is used in PhaseBright.mat as a filter to eliminate objects that are not actual spores.
 
 
-<b>GFPRatio.mat</b>
+<b>GFPRatio.m</b>
 
 Main file to measure GFP intensity ratio between forespores and mothercells. The script takes an image file name as input (baseFileName) and returns are array of measured mothercell intensity, forespore intensity and calculated ratio for each forespore/mothercell pair. Figures can be generated displaying each individual pair or all pairs numbered.
 
