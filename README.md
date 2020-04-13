@@ -29,3 +29,8 @@ Classification model for the identification of mothercell objects post image seg
 <b>sporeFit.mat</b>
 
 Classification model for the identification of forespore objects post image segmentation.
+
+<b>numberToGene</b>
+
+Related NCBI accession number to gene name and groups them according to gene lists in \regulon_libraries\. Example formats for inputs found in example-protein_result.xlsx and example-sequence.xlsx.
+
